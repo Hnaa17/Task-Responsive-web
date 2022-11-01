@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/home_style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="asset/img/logo.png" alt="logo">
+                    <span class="text-logo">Blanja</span>
+                </div>
+                </a>
+            <!-- / Logo -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- Search -->
+                    <form class="d-flex search-navbar" role="search" >
+                        <div class="input-group">
+                            <input type="search" class="form-control search-form" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text search-icon">
+                                <img src="asset/img/search.png" alt="Search">
+                            </span>
+                        </div>
+                            
+                        <button class="btn btn-outline-white mini-btn" type="submit">
+                            <img class="mr-4" src="asset/img/filter.png" alt="filter">
+                        </button>
+                    </form>
+                    <form class="form-inline my-2 my-lg-0 btn-right">
+                        <button class="btn btn-outline-white mini-btn" type="submit">
+                            <img class="mr-3" src="asset/img/cart.png" alt="cart">
+                        </button>
+                        <button class="btn btn-outline-white mini-btn" type="submit">
+                            <img class="mr-3" src="asset/img/bell.png" alt="bell">
+                        </button>
+                        <button type="button" class="btn mini-btn">
+                            <img class="mr-3" src="asset/img/mail.png" alt="mail">
+                          </button>
+                        <button class="btn btn-outline-white mini-btn" type="submit">
+                            <img class="mr-3" src="asset/img/pic.png" alt="Picture">
+                        </button>
+                    </form>
+                </ul>
+                </div>
+            </div>
+            </nav>
+        <!-- / Navbar -->
+    </header>
+    <main>
+        <section class="container mt-5">
+            <h1 class="ml-3 text">Checkout</h1>
+            <p class="text mt-4">Shipping Address</p>
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title text">Andreas Jane</h5>
+                          <p class="card-text">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa Tengah, 53181 [Blanja Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+                          <a href="#" class="btn btn-outline-secondary choose-address" disabled>Choose another address</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="asset/img/Suits bag.png" alt="">
+                                </div>
+                                <div class="col-md-8 mt-2">
+                                    <span class="d-block">
+                                        Men's formal suit - Black
+                                    </span>
+                                    <span>
+                                        Zalora Cloth
+                                    </span>
+                                </div>
+                                <div class="col-md-2 mt-2">
+                                    <span>$ 20.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mt-4 mb-5">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <img src="asset/img/Jacket-jeans.png" alt="">
+                                </div>
+                                <div class="col-md-8 mt-2">
+                                    <span class="d-block">
+                                        Men's Jacket jeans
+                                    </span>
+                                    <span>
+                                        Zalora Cloth
+                                    </span>
+                                </div>
+                                <div class="col-md-2 mt-2">
+                                    <span>$ 20.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Shopping summary</h5>
+                        <p class="card-text">
+                            <span>Order</span>
+                            <span>$ 40.0</span>
+                        </p>
+                        <p class="card-text">
+                            <span>Delivery</span>
+                            <span>$ 5.0</span>
+                        </p>
+                        <hr>
+                        <p>
+                            Delivery
+                            <span class="price-left text-danger">$ 45.0</span>
+                        </p>
+                        <button class="btn btn-danger select-payment">
+                            Select Payment
+                        </button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+    <script src="asset/js-v4/jquery.slim.min.js"></script>
+    <script src="asset/js-v4/index.js"></script>
+</body>
+</html>

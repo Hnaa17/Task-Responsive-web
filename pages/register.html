@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asset/css/login_style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+
+            <!-- Logo -->
+            <div class="logo logo-register">
+                <img src="../asset/img/logo.png" alt="logo">
+                <span class="text-logo">Blanja</span>
+            </div>
+            <!-- / Logo -->
+
+            <!-- text-open -->
+            <div class="text-open text-center mt-4">
+              Please sign up with your account
+            </div>
+
+            <!-- button tab -->
+            <div class="row">
+              <div class="col-md-6 offset-md-3">
+
+                <button class="btn-register btn-customer" id="button-customer">
+                  Customer
+                </button>
+
+                <button class="btn-register btn-seller" id="button-seller">
+                  Seller
+                </button>
+
+              </div>
+            </div>
+
+            <!-- Form Login Seller -->
+            <div class="row mt-4" id="register-seller">
+              <div class="col-md-8 offset-md-2 input-text">
+                <div class="form-group">
+                    <input type="name" class="form-control" placeholder="Name">
+                </div>
+
+                <div class="form-group mt-2">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+
+                <div class="form-group mt-2">
+                    <input type="phone_number" class="form-control" placeholder="Phone number">
+                </div>
+
+                <div class="form-group mt-2">
+                  <input type="store_name" class="form-control" placeholder="Store name">
+                </div>
+
+                <div class="form-group mt-2">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+
+                <button class="btn final-button mt-4 btn-danger">
+                 <a href="login.html" class="text-decoration-none text-white">PRIMARY</a> 
+                </button>
+
+                <span class="d-block text-link mt-3 text-center">
+                  Already have a Blanja account? <a href="login.html" class="text-decoration-none text-link-red">Login</a>
+                </span>
+              </div>
+            </div>
+
+            <!-- Form Login Customer -->
+            <div class="row mt-4" id="register-customer">
+              <div class="col-md-8 offset-md-2 input-text">
+                <div class="form-group">
+                    <input type="name" class="form-control" placeholder="Name">
+                </div>
+
+                <div class="form-group mt-2">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+
+                <div class="form-group mt-2">
+                  <input type="password" class="form-control" placeholder="Password">
+                </div>
+
+                <button class="btn final-button mt-4 btn-danger">
+                 <a href="login.html" class="text-decoration-none text-white">PRIMARY</a> 
+                </button>
+
+                <span class="d-block text-link mt-3 text-center">
+                  Already have a Blanja account? <a href="login.html" class="text-decoration-none text-link-red">Login</a>
+                </span>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="../asset/js-v4/jquery.slim.min.js"></script>
+  <script src="../asset/js/bootstrap.bundle.min.js"></script>
+  <script src="../asset/js/register.js"></script>
+</body>
+</html>

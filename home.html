@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/home_style.css">
+
+    <!-- font metropolis -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css"/>
+
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="asset/img/logo.png" alt="logo">
+                    <span class="text-logo">Blanja</span>
+                </div>
+            <!-- / Logo -->
+              </a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <!-- Search -->
+                    <form class="d-flex search-navbar" role="search" >
+                        <div class="input-group">
+                            <input type="search" class="form-control search-form" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text search-icon" id="basic-addon2">
+                                <img src="asset/img/search.png" alt="Search">
+                            </span>
+                        </div>
+
+                        <!-- Button Filter -->
+                        <button class="btn btn-outline-white mini-btn" type="button" data-bs-toggle="modal" data-bs-target="#modal-filter">
+                            <img class="mr-4" src="asset/img/filter.png" alt="filter">
+                        </button>
+                    </form>
+
+                    <form class="form-inline my-2 my-lg-0 btn-right">
+
+                        <button class="btn btn-outline-white mini-btn" type="submit">
+                            <img class="mr-4" src="asset/img/cart.png" alt="cart">
+                        </button>
+
+                        <button class="btn btn-danger rounded-pill mr-2">
+                            <a href="pages/login.html" class="text-decoration-none text-white">Login</a>
+                        </button>
+
+                        <button class="btn border rounded-pill ml-2">
+                            <a href="pages/register.html" class="text-decoration-none text-black">Signup</a>
+                        </button>
+                    </form>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- / Navbar -->
+    </header>
+    
+    <main>
+        <section class="container">
+            <div class="row">
+
+                <!-- Slide -->
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="asset/img/slide1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/img/slide2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/img/slide1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="asset/img/slide2.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                <!-- End Slide -->
+
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h1 class="ml-3 text">Category</h1>
+            <p class="category-text ml-3">What are you currently looking for?</p>
+            <div class="mt-5">
+                <div class="category-item">
+
+                    <div class=""> 
+                       <div>
+                            <img class="category" src="asset/img/catogory1.png" alt="category">
+                       </div>
+                    </div>
+
+                    <div class="">
+                        <div>
+                            <img class="category" src="asset/img/catogory4.png" alt="category">
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div>
+                            <img class="category" src="asset/img/category5.png" alt="category">
+                        </div>
+                    </div>
+
+                    <div class="">                        
+                        <div>
+                            <img class="category" src="asset/img/catogory3.png" alt="category">
+                       </div>
+                    </div>
+
+                    <div class="">
+                        <div>
+                            <img class="category" src="asset/img/catogory2.png" alt="category">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-5">
+            <h2 class="text">New</h2>
+            <p class="category-text">You've never seen before!</p>
+            <div class="mt-4">
+                <div class="product-list">
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container mt-5">
+            <h2>Popular</h2>
+            <p>Find clothes that are tranding recently</p>
+            <div class="mt-4 mb-5">
+                <div class="product-list">
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+
+                    <div class="border rounded product">
+                        <img class="w-100" src="asset/img/formal-suits.png" alt="cloth">
+                        <div class="p-2">
+                            <h5 class="card-title text">Men's formal suit - Black & White</h5>
+                            <h5 class="text-danger">$ 40.0</h5>
+                            <p class="category-text">Zalora Cloth</p>
+                            <img src="asset/img/Rating 5 stars.png" alt="stars">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+<script src="asset/js/bootstrap.bundle.min.js"></script>
+
+<!-- Modal Filter -->
+<div class="modal fade" id="modal-filter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Filter</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- Colors -->
+        <div class="modal-body">
+            <span class="fw-bold d-block mb-4">Colors</span>
+            <div class="color-item color-item2">
+                <button class="btn btn-outline-white" type="button">
+                    <div class="black"></div>
+                </button>
+                <button class="btn btn-outline-white" type="button">
+                    <div class="white"></div>
+                </button>
+                <button class="btn btn-outline-white" type="button">
+                    <div class="red"></div>
+                </button>
+                <button class="btn btn-outline-white" type="button">
+                    <div class="gray"></div>
+                </button>
+                <button class="btn btn-outline-white" type="button">
+                    <div class="brown"></div>
+                </button>
+                <button class="btn btn-outline-white" type="button">
+                    <div class="dark-blue"></div>
+                </button>
+            </div>
+        </div>
+        <!-- END Colors -->
+
+        <!-- Sizes -->
+        <hr>
+        <div class="modal-body">
+            <span class="fw-bold d-block mb-4">Sizes</span>
+            <div class="sizes-modal">
+                <button type="button" class="btn btn-outline-danger">XS</button>
+                <button type="button" class="btn btn-outline-danger">S</button>
+                <button type="button" class="btn btn-outline-danger">M</button>
+                <button type="button" class="btn btn-outline-danger">L</button>
+                <button type="button" class="btn btn-outline-danger">XL</button>
+            </div>
+        </div>
+        <!-- END Sizes -->
+
+
+        <!-- Category -->
+        <hr>
+        <div class="modal-body">
+            <span class="fw-bold d-block mb-4">Category</span>
+            <div class="category-button">
+                <button type="button" class="btn btn-outline-danger">All</button>
+                <button type="button" class="btn btn-outline-danger">Woman</button>
+                <button type="button" class="btn btn-outline-danger">Man</button>
+                <button type="button" class="btn btn-outline-danger">Boys</button>
+                <button type="button" class="btn btn-outline-danger">Girls</button>
+            </div>
+        </div>
+        <!-- END Category -->
+
+
+        <!-- Brand -->
+        <hr>
+        <div class="modal-body">
+            <span class="fw-bold d-block mb-4">Brand</span>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Open this select menu</option>
+                <option value="Adidas Originals">Adidas Originals</option>
+                <option value="Jack & Jones">Jack & Jones</option>
+                <option value="s. Oliver">s. Oliver</option>
+              </select>
+        </div>
+        <!-- END Brand -->
+        <hr>
+        <div class="modal-body"></div>
+        <hr>
+
+        <div class="modal-footer">
+            <button type="button" class="btn border rounded-pill ml-2 text-black" data-bs-dismiss="modal">
+                Discard
+            </button>
+            <button type="button" class="btn btn-danger rounded-pill mr-2 text-white" data-bs-dismiss="modal">
+                Apply
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END Modal Filter -->
+
+</body>
+</html>
